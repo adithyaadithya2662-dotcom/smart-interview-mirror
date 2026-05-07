@@ -46,3 +46,63 @@ Liesense/
 └── frontend/
     ├── index.html
     └── script.js
+## 📁 Project Structure
+```text
+Liesense/
+│
+├── backend/
+│   ├── app.py
+│   └── analyzer.py
+│
+└── frontend/
+    ├── index.html
+    └── script.js
+```
+
+## ▶️ How to Run
+
+### 1. Run Backend
+```bash
+cd backend
+python app.py
+```
+
+Backend runs on:
+
+```text
+http://127.0.0.1:5000
+```
+
+### 2. Run Frontend
+```bash
+cd frontend
+python -m http.server 5500
+```
+
+Open in browser:
+
+```text
+http://localhost:5500
+```
+
+## 🧪 Demo Flow
+1. Click **Start**
+2. Answer the interview question
+3. Click **Stop**
+4. View score, feedback, history, and graph
+
+## 🏆 Unique Selling Point
+Unlike normal interview practice apps, LieSense AI analyzes how the user communicates, not just what they answer.
+
+## 🔮 Future Scope
+- Facial emotion detection
+- Real GPT-based answer evaluation
+- Voice stress analysis
+- Cloud deployment
+- Mobile app version
+
+## ⚠️ Disclaimer
+This project does not claim to detect lies with certainty. It provides behavioral communication insights based on speech patterns.
+
+## 👨‍💻 Built For
+Hackathon project by Adhi.
