@@ -105,4 +105,4 @@ Unlike normal interview practice apps, LieSense AI analyzes how the user communi
 This project does not claim to detect lies with certainty. It provides behavioral communication insights based on speech patterns.
 
 ## 👨‍💻 Built For
-Hackathon project by Adhi.
+Hackathon project by Adithya , Ajithkumar H.M , Chaithan S.R , Vivek B.M .
