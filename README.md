@@ -1,26 +1,48 @@
-# 🎯 Smart Interview Mirror
+# 🧠 LieSense AI – Smart Interview Mirror
 
-AI-powered interview system that analyzes communication behavior in real time.
+LieSense AI is an AI-powered behavioral interview analysis system that helps students improve communication skills for interviews.
 
-## 🚀 Features
-- Speech recognition
-- Filler word detection
-- Confidence scoring
-- Interview question generation
+## 🚀 Project Domain
+Artificial Intelligence + Behavioral Analysis + EdTech
 
-## 🛠 Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Flask (Python)
+## 🎯 Problem Statement
+Many students prepare technical answers but struggle in real interviews due to hesitation, filler words, poor speech flow, and lack of confidence. Existing practice tools do not provide real-time behavioral feedback.
 
-## ▶️ Run
+## 💡 Solution
+LieSense AI simulates an interview environment, listens to the user’s response, analyzes speech behavior, and provides real-time performance feedback.
 
-Backend:
-cd backend
-python app.py
+## ✨ Features
+- 🎥 Camera-based interview interface
+- 🎤 Speech recognition
+- 📊 Word count tracking
+- ⚠️ Filler word detection
+- 🧠 Confidence and stress estimation
+- 📜 Performance history
+- 📈 Performance graph
+- 💾 Local storage for previous attempts
+- 🎨 Attractive black-and-white dashboard UI
 
-Frontend:
-cd frontend
-python -m http.server 5500
+## 🛠️ Tech Stack
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+- Web Speech API
 
-Open:
-http://localhost:5500
+### Backend
+- Python
+- Flask
+- Flask-CORS
+
+## 📁 Project Structure
+```text
+Liesense/
+│
+├── backend/
+│   ├── app.py
+│   └── analyzer.py
+│
+└── frontend/
+    ├── index.html
+    └── script.js
